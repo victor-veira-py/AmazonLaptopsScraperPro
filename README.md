@@ -23,4 +23,31 @@ Este script inicializa el sistema de almacenamiento local para el Scraper de Ama
 * **Integridad de Datos:** Configurado con cláusulas `IF NOT EXISTS` para evitar la sobrescritura accidental de tablas existentes.
 
 ---
-Developed by / Desarrollado por **VICTOR ARMANDO DE OLIVEIRA RODRÍGUEZ**
+
+---
+
+# 🤖 Phase 2: Dynamic Web Scraper (Selenium) | Fase 2: Scraper Dinámico (Selenium)
+
+[English](#english-f2) | [Español](#español-f2)
+
+---
+
+## English
+This stage focuses on real-time data extraction using **Selenium WebDriver**. The bot simulates human browsing to capture prices and technical specifications.
+
+### ✨ Key Features:
+* **Smart Filtering:** Implements logic to skip accessories and irrelevant results, focusing only on real laptops.
+* **Automated Persistence:** Each finding is automatically sent to the SQLite database.
+* **Navigation Control:** Optimized headers (User-Agent) to improve connection stability and avoid detection.
+
+---
+
+## Español
+Esta etapa se enfoca en la extracción de datos en tiempo real usando **Selenium WebDriver**. El bot simula la navegación humana para capturar precios y especificaciones técnicas.
+
+### ✨ Características Técnicas:
+* **Filtrado Inteligente:** Implementa lógica para saltar accesorios y resultados irrelevantes, enfocándose solo en laptops reales.
+* **Persistencia Automatizada:** Cada hallazgo se envía automáticamente a la base de datos SQLite.
+* **Control de Navegación:** Cabeceras optimizadas (User-Agent) para mejorar la estabilidad de la conexión y evitar detecciones.
+
+---

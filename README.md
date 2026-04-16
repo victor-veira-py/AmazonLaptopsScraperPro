@@ -106,3 +106,33 @@ Este módulo transforma los datos procesados en información visual utilizando *
 * **Exportación Automatizada:** Guarda una imagen PNG de alta calidad (300 DPI) para presentaciones.
 
 ---
+---
+
+# 📧 Phase 5: Automated Email & Security | Fase 5: Envío de Correo y Seguridad
+
+[English](#english-f5) | [Español](#español-f5)
+
+---
+
+## English
+The final stage of the project integrates an **automated notification system** with professional security standards. It uses environment variables to protect sensitive credentials while delivering reports.
+
+### ✨ Key Features:
+* **Environment Security:** Uses `.env` files to keep email credentials out of the public source code.
+* **SSL Encryption:** Implements secure communication with Gmail servers via port 465.
+* **Integrated Reporting:** Automatically attaches both the Excel dataset and the visualization chart.
+
+---
+
+## Español
+La etapa final del proyecto integra un **sistema de notificación automatizado** con estándares de seguridad profesionales. Utiliza variables de entorno para proteger credenciales sensibles durante la entrega de reportes.
+
+### ✨ Características Técnicas:
+* **Seguridad de Entorno:** Usa archivos `.env` para mantener las credenciales de correo fuera del código fuente público.
+* **Cifrado SSL:** Implementa comunicación segura con los servidores de Gmail a través del puerto 465.
+* **Reporte Integrado:** Adjunta automáticamente tanto el conjunto de datos en Excel como la gráfica de visualización.
+
+---
+
+## 👨‍💻 Developed by / Desarrollado por:
+**VICTOR ARMANDO DE OLIVEIRA RODRÍGUEZ**

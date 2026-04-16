@@ -74,13 +74,12 @@ In this phase, the system processes the collected data using **Pandas**. The raw
 ## Español
 En esta fase, el sistema procesa los datos recolectados utilizando **Pandas**. La información cruda se limpia y se transforma en un reporte ejecutivo de alto nivel.
 
-<img width="1366" height="736" alt="exce_amazon" src="https://github.com/user-attachments/assets/115b1e62-1e39-45c4-8e66-34716fa3c8ea" />
-
-
 ### ✨ Características Técnicas:
 * **Limpieza Inteligente:** Filtrado automático de entradas irrelevantes y normalización de texto para nombres de productos.
 * **Formato Empresarial:** Generación de archivos Excel con estilos personalizados (encabezados en Azul Empresarial y ajuste automático de columnas).
 * **Optimización de Precios:** Ordenamiento automático para resaltar los precios más competitivos primero.
+
+<img width="1366" height="736" alt="exce_amazon" src="https://github.com/user-attachments/assets/3e75b573-6310-46ae-a2da-6c9a4d897557" />
 
 ---
 ---
@@ -104,13 +103,15 @@ This module transforms processed data into visual insights using **Matplotlib**.
 ## Español
 Este módulo transforma los datos procesados en información visual utilizando **Matplotlib**. Genera una gráfica de barras de alta resolución para una comparación rápida de precios.
 
-<img width="3600" height="2400" alt="grafica_precios_amazon" src="https://github.com/user-attachments/assets/8ca4cbd0-d7ff-4caf-8b6d-ab0e09986286" />
 
 
 ### ✨ Características Técnicas:
 * **Estética Profesional:** Estilo personalizado utilizando Azul Empresarial y tipografía limpia.
 * **Etiquetado de Datos:** Indicadores de precio precisos en cada barra para una mejor legibilidad.
 * **Exportación Automatizada:** Guarda una imagen PNG de alta calidad (300 DPI) para presentaciones.
+
+<img width="3600" height="2400" alt="grafica_precios_amazon" src="https://github.com/user-attachments/assets/97d04dd4-c6ee-4dbd-9787-f0bb430078e3" />
+
 
 ---
 ---

@@ -51,3 +51,31 @@ Esta etapa se enfoca en la extracción de datos en tiempo real usando **Selenium
 * **Control de Navegación:** Cabeceras optimizadas (User-Agent) para mejorar la estabilidad de la conexión y evitar detecciones.
 
 ---
+
+---
+
+# 📊 Phase 3: Data Analysis & Excel Reporting | Fase 3: Análisis de Datos y Reporte en Excel
+
+[English](#english-f3) | [Español](#español-f3)
+
+---
+
+## English
+In this phase, the system processes the collected data using **Pandas**. The raw information is cleaned and transformed into a high-level executive report.
+
+### ✨ Key Features:
+* **Smart Cleaning:** Automated filtering of irrelevant entries and text normalization for product names.
+* **Business Formatting:** Generation of Excel files with custom styling (Business Blue headers and auto-adjusted columns).
+* **Price Optimization:** Automated sorting to highlight the most competitive prices first.
+
+---
+
+## Español
+En esta fase, el sistema procesa los datos recolectados utilizando **Pandas**. La información cruda se limpia y se transforma en un reporte ejecutivo de alto nivel.
+
+### ✨ Características Técnicas:
+* **Limpieza Inteligente:** Filtrado automático de entradas irrelevantes y normalización de texto para nombres de productos.
+* **Formato Empresarial:** Generación de archivos Excel con estilos personalizados (encabezados en Azul Empresarial y ajuste automático de columnas).
+* **Optimización de Precios:** Ordenamiento automático para resaltar los precios más competitivos primero.
+
+---

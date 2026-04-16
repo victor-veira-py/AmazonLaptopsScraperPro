@@ -79,3 +79,30 @@ En esta fase, el sistema procesa los datos recolectados utilizando **Pandas**. L
 * **Optimización de Precios:** Ordenamiento automático para resaltar los precios más competitivos primero.
 
 ---
+---
+
+# 📈 Phase 4: Data Visualization | Fase 4: Visualización de Datos
+
+[English](#english-f4) | [Español](#español-f4)
+
+---
+
+## English
+This module transforms processed data into visual insights using **Matplotlib**. It generates a high-resolution bar chart for quick price comparison.
+
+### ✨ Key Features:
+* **Professional Aesthetics:** Custom styling using Business Blue and clean typography.
+* **Data Labeling:** Precise price indicators on each bar for better readability.
+* **Automated Export:** Saves a high-quality (300 DPI) PNG image for presentations.
+
+---
+
+## Español
+Este módulo transforma los datos procesados en información visual utilizando **Matplotlib**. Genera una gráfica de barras de alta resolución para una comparación rápida de precios.
+
+### ✨ Características Técnicas:
+* **Estética Profesional:** Estilo personalizado utilizando Azul Empresarial y tipografía limpia.
+* **Etiquetado de Datos:** Indicadores de precio precisos en cada barra para una mejor legibilidad.
+* **Exportación Automatizada:** Guarda una imagen PNG de alta calidad (300 DPI) para presentaciones.
+
+---

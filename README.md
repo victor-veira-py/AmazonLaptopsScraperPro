@@ -141,6 +141,9 @@ La etapa final del proyecto integra un **sistema de notificación automatizado**
 * **Reporte Integrado:** Adjunta automáticamente tanto el conjunto de datos en Excel como la gráfica de visualización.
 
 ---
+🛠️ Extra Utilities | Utilidades Extra
+ver_datos.py: A quick-access script to preview the SQLite database directly from the terminal. | Un script de acceso rápido para previsualizar la base de datos SQLite directamente desde la terminal.
+---
 
 ## 👨‍💻 Developed by / Desarrollado por:
 **VICTOR ARMANDO DE OLIVEIRA RODRÍGUEZ**

@@ -70,8 +70,12 @@ In this phase, the system processes the collected data using **Pandas**. The raw
 
 ---
 
+
 ## Español
 En esta fase, el sistema procesa los datos recolectados utilizando **Pandas**. La información cruda se limpia y se transforma en un reporte ejecutivo de alto nivel.
+
+<img width="1366" height="736" alt="exce_amazon" src="https://github.com/user-attachments/assets/115b1e62-1e39-45c4-8e66-34716fa3c8ea" />
+
 
 ### ✨ Características Técnicas:
 * **Limpieza Inteligente:** Filtrado automático de entradas irrelevantes y normalización de texto para nombres de productos.
@@ -99,6 +103,9 @@ This module transforms processed data into visual insights using **Matplotlib**.
 
 ## Español
 Este módulo transforma los datos procesados en información visual utilizando **Matplotlib**. Genera una gráfica de barras de alta resolución para una comparación rápida de precios.
+
+<img width="3600" height="2400" alt="grafica_precios_amazon" src="https://github.com/user-attachments/assets/8ca4cbd0-d7ff-4caf-8b6d-ab0e09986286" />
+
 
 ### ✨ Características Técnicas:
 * **Estética Profesional:** Estilo personalizado utilizando Azul Empresarial y tipografía limpia.

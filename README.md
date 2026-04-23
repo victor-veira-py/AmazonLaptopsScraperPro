@@ -1,8 +1,10 @@
 # 🗄️ Phase 1: SQLite Database Configuration | Fase 1: Configuración de Base de Datos
 
-[English](#english) | [Español](#español)
+[English](#en-amz-f1) | [Español](#es-amz-f1)
 
 ---
+
+<div id="en-amz-f1"></div>
 
 ## English
 This script initializes the local storage system for the Amazon Scraper. It uses **SQLite** to ensure data persistence without the need for complex external servers.
@@ -12,7 +14,11 @@ This script initializes the local storage system for the Amazon Scraper. It uses
 * **Optimized Schema:** Includes fields for timestamping, platform identification, pricing (REAL), and direct product links.
 * **Data Integrity:** Configured with `IF NOT EXISTS` clauses to prevent accidental overwriting of existing tables.
 
----
+<br>
+<hr>
+<br>
+
+<div id="es-amz-f1"></div>
 
 ## Español
 Este script inicializa el sistema de almacenamiento local para el Scraper de Amazon. Utiliza **SQLite** para garantizar la persistencia de los datos sin necesidad de servidores externos complejos.
@@ -24,13 +30,13 @@ Este script inicializa el sistema de almacenamiento local para el Scraper de Ama
 
 ---
 
----
-
 # 🤖 Phase 2: Dynamic Web Scraper (Selenium) | Fase 2: Scraper Dinámico (Selenium)
 
-[English](#english-f2) | [Español](#español-f2)
+[English](#en-amz-f2) | [Español](#es-amz-f2)
 
 ---
+
+<div id="en-amz-f2"></div>
 
 ## English
 This stage focuses on real-time data extraction using **Selenium WebDriver**. The bot simulates human browsing to capture prices and technical specifications.
@@ -40,7 +46,11 @@ This stage focuses on real-time data extraction using **Selenium WebDriver**. Th
 * **Automated Persistence:** Each finding is automatically sent to the SQLite database.
 * **Navigation Control:** Optimized headers (User-Agent) to improve connection stability and avoid detection.
 
----
+<br>
+<hr>
+<br>
+
+<div id="es-amz-f2"></div>
 
 ## Español
 Esta etapa se enfoca en la extracción de datos en tiempo real usando **Selenium WebDriver**. El bot simula la navegación humana para capturar precios y especificaciones técnicas.
@@ -52,13 +62,13 @@ Esta etapa se enfoca en la extracción de datos en tiempo real usando **Selenium
 
 ---
 
----
-
 # 📊 Phase 3: Data Analysis & Excel Reporting | Fase 3: Análisis de Datos y Reporte en Excel
 
-[English](#english-f3) | [Español](#español-f3)
+[English](#en-amz-f3) | [Español](#es-amz-f3)
 
 ---
+
+<div id="en-amz-f3"></div>
 
 ## English
 In this phase, the system processes the collected data using **Pandas**. The raw information is cleaned and transformed into a high-level executive report.
@@ -68,8 +78,11 @@ In this phase, the system processes the collected data using **Pandas**. The raw
 * **Business Formatting:** Generation of Excel files with custom styling (Business Blue headers and auto-adjusted columns).
 * **Price Optimization:** Automated sorting to highlight the most competitive prices first.
 
----
+<br>
+<hr>
+<br>
 
+<div id="es-amz-f3"></div>
 
 ## Español
 En esta fase, el sistema procesa los datos recolectados utilizando **Pandas**. La información cruda se limpia y se transforma en un reporte ejecutivo de alto nivel.
@@ -82,13 +95,14 @@ En esta fase, el sistema procesa los datos recolectados utilizando **Pandas**. L
 <img width="1366" height="736" alt="exce_amazon" src="https://github.com/user-attachments/assets/3e75b573-6310-46ae-a2da-6c9a4d897557" />
 
 ---
----
 
 # 📈 Phase 4: Data Visualization | Fase 4: Visualización de Datos
 
-[English](#english-f4) | [Español](#español-f4)
+[English](#en-amz-f4) | [Español](#es-amz-f4)
 
 ---
+
+<div id="en-amz-f4"></div>
 
 ## English
 This module transforms processed data into visual insights using **Matplotlib**. It generates a high-resolution bar chart for quick price comparison.
@@ -98,12 +112,14 @@ This module transforms processed data into visual insights using **Matplotlib**.
 * **Data Labeling:** Precise price indicators on each bar for better readability.
 * **Automated Export:** Saves a high-quality (300 DPI) PNG image for presentations.
 
----
+<br>
+<hr>
+<br>
+
+<div id="es-amz-f4"></div>
 
 ## Español
 Este módulo transforma los datos procesados en información visual utilizando **Matplotlib**. Genera una gráfica de barras de alta resolución para una comparación rápida de precios.
-
-
 
 ### ✨ Características Técnicas:
 * **Estética Profesional:** Estilo personalizado utilizando Azul Empresarial y tipografía limpia.
@@ -112,15 +128,15 @@ Este módulo transforma los datos procesados en información visual utilizando *
 
 <img width="3600" height="2400" alt="grafica_precios_amazon" src="https://github.com/user-attachments/assets/97d04dd4-c6ee-4dbd-9787-f0bb430078e3" />
 
-
----
 ---
 
 # 📧 Phase 5: Automated Email & Security | Fase 5: Envío de Correo y Seguridad
 
-[English](#english-f5) | [Español](#español-f5)
+[English](#en-amz-f5) | [Español](#es-amz-f5)
 
 ---
+
+<div id="en-amz-f5"></div>
 
 ## English
 The final stage of the project integrates an **automated notification system** with professional security standards. It uses environment variables to protect sensitive credentials while delivering reports.
@@ -130,20 +146,27 @@ The final stage of the project integrates an **automated notification system** w
 * **SSL Encryption:** Implements secure communication with Gmail servers via port 465.
 * **Integrated Reporting:** Automatically attaches both the Excel dataset and the visualization chart.
 
----
+<br>
+<hr>
+<br>
+
+<div id="es-amz-f5"></div>
 
 ## Español
 La etapa final del proyecto integra un **sistema de notificación automatizado** con estándares de seguridad profesionales. Utiliza variables de entorno para proteger credenciales sensibles durante la entrega de reportes.
 
 ### ✨ Características Técnicas:
-* **Seguridad de Entorno:** Usa archivos `.env` para mantener las credenciales de correo fuera del código fuente público.
+* **Seguridad de Envío:** Usa archivos `.env` para mantener las credenciales de correo fuera del código fuente público.
 * **Cifrado SSL:** Implementa comunicación segura con los servidores de Gmail a través del puerto 465.
 * **Reporte Integrado:** Adjunta automáticamente tanto el conjunto de datos en Excel como la gráfica de visualización.
 
 ---
-🛠️ Extra Utilities | Utilidades Extra
-ver_datos.py: A quick-access script to preview the SQLite database directly from the terminal. | Un script de acceso rápido para previsualizar la base de datos SQLite directamente desde la terminal.
+
+### 🛠️ Extra Utilities | Utilidades Extra
+* **ver_datos.py:** A quick-access script to preview the SQLite database directly from the terminal. | Un script de acceso rápido para previsualizar la base de datos SQLite directamente desde la terminal.
+
 ---
 
-## 👨‍💻 Developed by / Desarrollado por:
+## 👨‍💻 Developed by / Desarrollado por
 **VICTOR ARMANDO DE OLIVEIRA RODRÍGUEZ**
+*Security Professional & Python Developer*
